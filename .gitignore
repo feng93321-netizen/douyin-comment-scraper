@@ -1,0 +1,5 @@
+# 本地凭证与数据，不上传
+cookies.json
+*.xlsx
+__pycache__/
+*.pyc

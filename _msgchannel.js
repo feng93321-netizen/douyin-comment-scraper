@@ -1,0 +1,1 @@
+window.MessageChannel=__iv8__.wrapNative(function(){var a={onmessage:null},b={onmessage:null};a.postMessage=function(d){if(b.onmessage)setTimeout(function(){b.onmessage({data:d})},0);};b.postMessage=function(d){if(a.onmessage)setTimeout(function(){a.onmessage({data:d})},0);};return{port1:a,port2:b};},'MessageChannel');
